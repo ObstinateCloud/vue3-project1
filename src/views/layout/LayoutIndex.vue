@@ -47,7 +47,7 @@
           <a-breadcrumb-item>用户新增</a-breadcrumb-item>
         </a-breadcrumb>
         <div :style="{ padding: '24px', background: '#fff', minHeight: '360px' }">
-          Bill is a cat.
+          <re-f-demo></re-f-demo>
         </div>
       </a-layout-content>
       <a-layout-footer style="text-align: center">
@@ -57,8 +57,15 @@
   </a-layout>
   </div>
 </template>
+<script lang="ts">
+  export default {
+    name: 'LayoutIndex'
+  }
+</script>
+
 <script lang="ts" setup >
 import { ref } from 'vue';
+import ReFDemo from '../refreactive/ReFDemo.vue'
 const collapsed = ref<boolean>(false);
 const selectedKeys = ref<string[]>(['1']);
 
