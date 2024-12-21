@@ -1,18 +1,17 @@
 
 <script setup lang="ts">
-import LayoutIndex from './views/layout/LayoutIndex.vue';
+import TabLayout from './views/layout/TabLayout.vue';
 </script>
 
 <template>
   <div class="container">
-    <LayoutIndex/>
+    <TabLayout></TabLayout>
   </div>
 </template>
 
 
 <style scoped>
 .container {
-  background-color: aqua;
   height: 100vh;
   width: 1800px;
   display: flex;

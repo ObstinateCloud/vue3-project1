@@ -47,7 +47,7 @@
           <a-breadcrumb-item>用户新增</a-breadcrumb-item>
         </a-breadcrumb>
         <div :style="{ padding: '24px', background: '#fff', minHeight: '360px' }">
-          <re-f-demo></re-f-demo>
+          <ref-demo></ref-demo>
         </div>
       </a-layout-content>
       <a-layout-footer style="text-align: center">
@@ -65,7 +65,7 @@
 
 <script lang="ts" setup >
 import { ref } from 'vue';
-import ReFDemo from '../refreactive/ReFDemo.vue'
+import RefDemo from '../refreactive/RefDemo.vue'
 const collapsed = ref<boolean>(false);
 const selectedKeys = ref<string[]>(['1']);
 
